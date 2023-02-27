@@ -1,0 +1,31 @@
+@media (min-width:600px) {
+
+    main {
+        .card {
+            max-width: 39.6875rem;
+
+            &__info {
+                padding: 0.9375rem 1.5rem;
+
+                p {
+                    padding: 1.4375rem 0;
+                }
+            }
+
+            &__innerCard {
+                width: 100%;
+                display: flex;
+
+                &__plan {
+                    padding: 43px 1.125rem 0.5625rem 1.125rem;
+                    min-width: 50%;
+                }
+
+                &__about {
+                    min-width: 50%;
+                    padding: 2.75rem 2.5rem;
+                }
+            }
+        }
+    }
+}
