@@ -1,0 +1,66 @@
+main {
+    min-height: 100vh;
+
+    .card {
+        width: 311px;
+        border-radius: 10px;
+        overflow: hidden;
+
+        &__info {
+            padding: 0 22px;
+            //desktop 46px 42px
+            background-color: $Light-Gray;
+
+            h1 {
+                margin: 2.0625rem 0; //33px
+                color: $Cyan;
+            }
+
+            h2 {
+                color: $Bright-Yellow;
+            }
+
+            p {
+                margin: 30px 0 40px 0;
+            }
+
+        }
+
+        &__innerCard {
+
+            p,
+            pre {
+                color: $Light-Gray;
+            }
+
+            &__plan {
+                padding: 0 22px;
+                background-color: $Cyan;
+
+                >h2 {
+                    padding: 1.875rem 0; //30px
+                    color: $Light-Gray;
+                }
+
+                .plan_discription {
+                    gap: 10px;
+
+                    span {
+                        font-size: 21px;
+                        font-weight: 700;
+                    }
+                }
+
+            }
+
+            &__about {
+                padding: 0 22px;
+                background-color: $Light-Cyan;
+                h2{
+                    color: $Light-Gray;
+                }
+                
+            }
+        }
+    }
+}
